@@ -1,0 +1,9 @@
+N = input()
+M = len(N)
+sum = 0
+for i in range(M):
+    sum = sum + int(N[i]) ** M 
+if sum == int(N):
+    print("Armstrong Number")
+else: 
+    print("Not an Armstrong Number")
