@@ -1,0 +1,9 @@
+A = int(input())
+N = int(input())
+sum = 0
+product = 0
+for i in range(1, N + 1):
+    product = product + 2
+    power = A ** product
+    sum = sum + power
+print(sum)
