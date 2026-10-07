@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+sum = 0
+for i in range(A, B + 1):
+    lenght = len(str(i))
+    sum = sum  + int(lenght)
+print(sum)
