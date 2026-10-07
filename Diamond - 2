@@ -1,0 +1,11 @@
+N = int(input())
+for i in range(1, N + 1):
+    value = str(i) + " "
+    num = i
+    space = N-i
+    print(" " * space + value * num)
+for i in range(1, N):
+    value = str(N-i) + " "
+    num = N-i
+    space =  i
+    print(" " * space + value * num)
