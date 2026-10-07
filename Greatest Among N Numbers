@@ -1,0 +1,8 @@
+num = int(input())
+first = int(input())
+G = first
+for i in range(num-1):
+    second = int(input())
+    if second >= G:
+        G = second
+print(G)
