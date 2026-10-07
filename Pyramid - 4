@@ -1,0 +1,9 @@
+N = int(input())
+for i in range(1, N + 1):
+    value = str(i) + " "
+    repeat = i
+    print(value * repeat)
+for i in range(1, N):
+    value = str(N-i) + " "
+    repeat = N-i
+    print(value * repeat)
