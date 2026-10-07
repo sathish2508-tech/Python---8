@@ -1,0 +1,6 @@
+N = int(input())
+for i in range(N):
+    num = N-i
+    value = (str(num) + " ") * num 
+    space = (" ") * 2*i 
+    print(space + value)
