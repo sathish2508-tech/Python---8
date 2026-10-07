@@ -1,0 +1,10 @@
+A = int(input())
+B = int(input())
+value = ""
+for i in range(A, B + 1):
+    if (i % 6) == 0:
+        value = value + str(i) + " "
+if value:
+    print(value)
+else:
+    print("No Numbers Found")
