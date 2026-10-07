@@ -1,0 +1,6 @@
+W = input()
+lenght = len(W)
+sum = 0
+for i in range(lenght):
+    sum = sum + int(W[i]) ** lenght
+print(sum)
