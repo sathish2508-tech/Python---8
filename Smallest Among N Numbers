@@ -1,0 +1,8 @@
+N = int(input())
+first = int(input())
+small = first
+for i in range(N-1):
+    second = int(input())
+    if second < small:
+        small = second
+print(small)
