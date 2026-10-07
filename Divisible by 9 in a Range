@@ -1,0 +1,10 @@
+A = int(input())
+B = int(input())
+div = ""
+for i in range(A, B + 1):
+    if (i % 9) == 0:
+        div = div + str(i) + " "
+if div:
+    print(div)
+else:
+    print("No Numbers found")
